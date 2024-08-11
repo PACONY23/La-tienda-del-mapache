@@ -1,0 +1,27 @@
+.custom-nav {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.main {
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.landing-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.landing-overlay {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.7987394787016369) 0%, rgba(255,255,255,0) 100%);
+}
